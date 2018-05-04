@@ -1,0 +1,170 @@
+﻿<Window x:Class="Farmacia.GUI.Administrador.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Farmacia.GUI.Administrador"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+	<TabControl>
+		<TabItem Header="Categoria">
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="auto"/>
+					<RowDefinition Height="auto"/>
+					<RowDefinition Height="*"/>
+				</Grid.RowDefinitions>
+				<WrapPanel Grid.Row="0">
+					<Button x:Name="btnCategoriaNuevo" Click="btnCategoriaNuevo_Click">Nuevo</Button>
+					<Button x:Name="btnCategoriaEditar" Click="btnCategoriaEditar_Click">Editar</Button>
+					<Button x:Name="btnCategoriaGuardar" Click="btnCategoriaGuardar_Click">Guardar</Button>
+					<Button x:Name="btnCategoriaCancelar" Click="btnCategoriaCancelar_Click">Cancelar</Button>
+					<Button x:Name="btnCategoriaEliminar" Click="btnCategoriaEliminar_Click">Eliminar</Button>
+				</WrapPanel>
+				<WrapPanel Grid.Row="1">
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Id:</TextBlock>
+						<TextBlock x:Name="txbCategoriaId"></TextBlock>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>TipoDeCategoria:</TextBlock>
+						<TextBox x:Name="txbCategoriaTipoDeCategoria" Width="200"></TextBox>
+					</StackPanel>
+				</WrapPanel>
+				<DataGrid x:Name="dtgCategoria" Grid.Row="2" IsReadOnly="True"/>
+			</Grid>
+		</TabItem>
+		<TabItem Header="Producto">
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="auto"/>
+					<RowDefinition Height="auto"/>
+					<RowDefinition Height="*"/>
+				</Grid.RowDefinitions>
+				<WrapPanel Grid.Row="0">
+					<Button x:Name="btnProductosNuevo" Click="btnProductosNuevo_Click">Nuevo</Button>
+					<Button x:Name="btnProductosEditar" Click="btnProductosEditar_Click">Editar</Button>
+					<Button x:Name="btnProductosGuardar" Click="btnProductosGuardar_Click">Guardar</Button>
+					<Button x:Name="btnProductosCancelar" Click="btnProductosCancelar_Click">Cancelar</Button>
+					<Button x:Name="btnProductosEliminar" Click="btnProductosEliminar_Click">Eliminar</Button>
+				</WrapPanel>
+				<WrapPanel Grid.Row="1">
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Id:</TextBlock>
+						<TextBlock x:Name="txbProductosId"></TextBlock>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>NombreProducto:</TextBlock>
+						<TextBox x:Name="txbProductosNombre" Width="200"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Categoria:</TextBlock>
+						<TextBox x:Name="txbProductosCategoria" Width="200"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Descripcion:</TextBlock>
+						<TextBox x:Name="txbProductosDescripcion" Width="200"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>PrecioCompra:</TextBlock>
+						<TextBox x:Name="txbProductosPrecioCompra" Width="200"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>PrecioVenta:</TextBlock>
+						<TextBox x:Name="txbProductosPrecioVenta" Width="200"></TextBox>
+					</StackPanel>
+				</WrapPanel>
+				<DataGrid x:Name="dtgProductos" Grid.Row="2" IsReadOnly="True"/>
+			</Grid>
+
+		</TabItem>
+		<TabItem Header="Cliente">
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="auto"/>
+					<RowDefinition Height="auto"/>
+					<RowDefinition Height="*"/>
+				</Grid.RowDefinitions>
+				<WrapPanel Grid.Row="0">
+					<Button x:Name="btnClienteNuevo" Click="btnClienteNuevo_Click">Nuevo</Button>
+					<Button x:Name="btnClienteEditar" Click="btnClienteEditar_Click">Editar</Button>
+					<Button x:Name="btnClienteGuardar" Click="btnClienteGuardar_Click">Guardar</Button>
+					<Button x:Name="btnClienteCancelar" Click="btnClienteCancelar_Click">Cancelar</Button>
+					<Button x:Name="btnClienteEliminar" Click="btnClienteEliminar_Click">Eliminar</Button>
+				</WrapPanel>
+				<WrapPanel Grid.Row="1">
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Id:</TextBlock>
+						<TextBlock x:Name="txbClienteId"></TextBlock>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Nombre:</TextBlock>
+						<TextBox x:Name="txbClienteNombre" Width="200"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Apellido:</TextBlock>
+						<TextBox x:Name="txbClienteApellido" Width="200"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Direccion:</TextBlock>
+						<TextBox x:Name="txbClienteDireccion" Width="200"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Telefono:</TextBlock>
+						<TextBox x:Name="txbClienteTelefono" Width="200"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Estacionamiento:</TextBlock>
+						<TextBox x:Name="txbClienteEstacionamiento" Width="200"></TextBox>
+					</StackPanel>
+				</WrapPanel>
+				<DataGrid x:Name="dtgCliente" Grid.Row="2" IsReadOnly="True"/>
+			</Grid>
+
+		</TabItem>
+		<TabItem Header="Empleado">
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="auto"/>
+					<RowDefinition Height="auto"/>
+					<RowDefinition Height="*"/>
+				</Grid.RowDefinitions>
+				<WrapPanel Grid.Row="0">
+					<Button x:Name="btnEmpleadoNuevo" Click="btnEmpleadoNuevo_Click">Nuevo</Button>
+					<Button x:Name="btnEmpleadoEditar" Click="btnEmpleadoEditar_Click">Editar</Button>
+					<Button x:Name="btnEmpleadoGuardar" Click="btnEmpleadoGuardar_Click">Guardar</Button>
+					<Button x:Name="btnEmpleadoCancelar" Click="btnEmpleadoCancelar_Click">Cancelar</Button>
+					<Button x:Name="btnEmpleadoEliminar" Click="btnEmpleadoEliminar_Click">Eliminar</Button>
+				</WrapPanel>
+				<WrapPanel Grid.Row="1">
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Id:</TextBlock>
+						<TextBlock x:Name="txbEmpleadoId"></TextBlock>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Nombre:</TextBlock>
+						<TextBox x:Name="txbEmpleadoNombre" Width="200"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Apellido:</TextBlock>
+						<TextBox x:Name="txbEmpleadoApellido" Width="200"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Direccion:</TextBlock>
+						<TextBox x:Name="txbEmpleadoDireccion" Width="200"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Telefono:</TextBlock>
+						<TextBox x:Name="txbEmpleadoTelefono" Width="200"></TextBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<TextBlock>Matricula:</TextBlock>
+						<TextBox x:Name="txbEmpleadoMatricula" Width="200"></TextBox>
+					</StackPanel>
+				</WrapPanel>
+				<DataGrid x:Name="dtgEmpleado" Grid.Row="2" IsReadOnly="True"/>
+			</Grid>
+
+		</TabItem>
+	</TabControl>
+</Window>

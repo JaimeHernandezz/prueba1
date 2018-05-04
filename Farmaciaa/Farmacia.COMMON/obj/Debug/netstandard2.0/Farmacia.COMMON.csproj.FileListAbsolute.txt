@@ -1,0 +1,9 @@
+C:\Proyectos\Farmacia\Farmacia.COMMON\bin\Debug\netstandard2.0\Farmacia.COMMON.deps.json
+C:\Proyectos\Farmacia\Farmacia.COMMON\bin\Debug\netstandard2.0\Farmacia.COMMON.dll
+C:\Proyectos\Farmacia\Farmacia.COMMON\bin\Debug\netstandard2.0\Farmacia.COMMON.pdb
+C:\Proyectos\Farmacia\Farmacia.COMMON\obj\Debug\netstandard2.0\Farmacia.COMMON.csprojResolveAssemblyReference.cache
+C:\Proyectos\Farmacia\Farmacia.COMMON\obj\Debug\netstandard2.0\Farmacia.COMMON.csproj.CoreCompileInputs.cache
+C:\Proyectos\Farmacia\Farmacia.COMMON\obj\Debug\netstandard2.0\Farmacia.COMMON.AssemblyInfoInputs.cache
+C:\Proyectos\Farmacia\Farmacia.COMMON\obj\Debug\netstandard2.0\Farmacia.COMMON.AssemblyInfo.cs
+C:\Proyectos\Farmacia\Farmacia.COMMON\obj\Debug\netstandard2.0\Farmacia.COMMON.dll
+C:\Proyectos\Farmacia\Farmacia.COMMON\obj\Debug\netstandard2.0\Farmacia.COMMON.pdb

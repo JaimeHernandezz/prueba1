@@ -1,0 +1,12 @@
+C:\Proyectos\Farmacia\Farmacia.DAL\bin\Debug\netstandard2.0\Farmacia.COMMON.dll
+C:\Proyectos\Farmacia\Farmacia.DAL\obj\Debug\netstandard2.0\Farmacia.DAL.csprojResolveAssemblyReference.cache
+C:\Proyectos\Farmacia\Farmacia.DAL\obj\Debug\netstandard2.0\Farmacia.DAL.csproj.CoreCompileInputs.cache
+C:\Proyectos\Farmacia\Farmacia.DAL\obj\Debug\netstandard2.0\Farmacia.DAL.AssemblyInfoInputs.cache
+C:\Proyectos\Farmacia\Farmacia.DAL\obj\Debug\netstandard2.0\Farmacia.DAL.AssemblyInfo.cs
+C:\Proyectos\Farmacia\Farmacia.DAL\bin\Debug\netstandard2.0\Farmacia.DAL.deps.json
+C:\Proyectos\Farmacia\Farmacia.DAL\bin\Debug\netstandard2.0\Farmacia.DAL.dll
+C:\Proyectos\Farmacia\Farmacia.DAL\bin\Debug\netstandard2.0\Farmacia.DAL.pdb
+C:\Proyectos\Farmacia\Farmacia.DAL\bin\Debug\netstandard2.0\Farmacia.COMMON.pdb
+C:\Proyectos\Farmacia\Farmacia.DAL\obj\Debug\netstandard2.0\Farmacia.DAL.csproj.CopyComplete
+C:\Proyectos\Farmacia\Farmacia.DAL\obj\Debug\netstandard2.0\Farmacia.DAL.dll
+C:\Proyectos\Farmacia\Farmacia.DAL\obj\Debug\netstandard2.0\Farmacia.DAL.pdb
